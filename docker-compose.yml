@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+
+  spring-boot-java-basic-archetype:
+    build: .
+    container_name: spring-boot-java-basic-archetype
+    ports:
+      - "18080:8080"
+      - "18787:8787"
